@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchManagers": ["gradle-wrapper"],
+      "matchUpdateTypes": ["major", "minor"],
+    },
+  ]
+}
