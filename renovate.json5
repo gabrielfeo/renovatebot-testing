@@ -5,7 +5,7 @@
       "matchManagers": ["gradle-wrapper", "maven-wrapper"],
       "matchUpdateTypes": ["major", "minor"],
       "matchFileNames": [
-        "/(?:gradle|maven)/wrapper/"
+        "/(?:gradle|\.mvn)/wrapper/"
       ],
       "enabled": false,
     },
