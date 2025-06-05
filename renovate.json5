@@ -2,9 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "enabled": false,
-      "matchManagers": ["gradle-wrapper"],
+      "matchManagers": ["gradle-wrapper", "maven-wrapper"],
       "matchUpdateTypes": ["major", "minor"],
+      "matchFileNames": [
+        "/(?:gradle|maven)/wrapper/"
+      ],
+      "enabled": false,
     },
   ]
 }
