@@ -34,7 +34,7 @@ testing {
 
             dependencies {
                 // Use newer version of JUnit Engine for Kotlin Test
-                implementation("org.junit.jupiter:junit-jupiter-engine:5.9.1")
+                implementation("org.junit.jupiter:junit-jupiter-engine:5.13.1")
             }
         }
     }
